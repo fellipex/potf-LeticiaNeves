@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio | Letícia Neves</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Cookie&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-shapes">
+    <span class="shape star"></span>
+    <span class="shape bubble"></span>
+    <span class="shape ring"></span>
+    <span class="shape dot"></span>
+  </div>
+
+  <header class="header" id="inicio">
+    <nav class="nav container">
+      <a href="#inicio" class="logo logo-left"><img src="assets/logo-tipo.png" alt="Logo Letícia Graphics" class="site-logo" /></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#sobre">Apresentação</a></li>
+        <li><a href="#projetos">Portfólio</a></li>
+        <li><a href="#contato">Informações</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero container">
+      <div class="hero-text reveal">
+        <p class="tag">Design gráfico • Identidade visual • Comunicação</p>
+        <h1>Portfólio de <span>Letícia Neves</span></h1>
+        <p class="hero-description">Sou uma profissional em formação na área de Design - pela Universidade Federal da Bahia -, apaixonada por criar soluções visuais que comuniquem com clareza, estética e propósito. Atuo com projetos de identidade visual e comunicação, aliando criatividade e técnica para desenvolver marcas autênticas e funcionais. Além da experiência prática com design gráfico, trago uma bagagem artística como escritora amadora, o que amplia minha sensibilidade narrativa e minha capacidade de traduzir ideias em imagens. Com olhar atento aos detalhes, compromisso com a originalidade e vontade constante de aprender, busco parcerias e oportunidades que me permitam crescer como designer e criadora.</p>
+        <div class="hero-actions">
+          <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+          <a href="#contato" class="btn btn-outline">Entrar em contato</a>
+        </div>
+      </div>
+
+      <div class="hero-card reveal delay-1">
+        <div class="profile-circle">
+          <div class="profile-inner">
+            <img src="assets/foto-perfil.png" alt="Foto de perfil de Letícia Neves" class="profile-photo" />
+          </div>
+        </div>
+        <div class="mini-card">
+          <span>Originalidade</span>
+          <span>Criatividade</span>
+          <span>Sensibilidade visual</span>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="section container" id="sobre">
+      <div class="section-head reveal">
+        <span class="section-label">Apresentação</span>
+        <h2>Sobre mim</h2>
+      </div>
+
+      <div class="about-grid">
+        <article class="about-card reveal">
+          <p>Sou uma profissional em formação na área de Design - pela Universidade Federal da Bahia -, apaixonada por criar soluções visuais que comuniquem com clareza, estética e propósito. Atuo com projetos de identidade visual e comunicação, aliando criatividade e técnica para desenvolver marcas autênticas e funcionais. Além da experiência prática com design gráfico, trago uma bagagem artística como escritora amadora, o que amplia minha sensibilidade narrativa e minha capacidade de traduzir ideias em imagens. Com olhar atento aos detalhes, compromisso com a originalidade e vontade constante de aprender, busco parcerias e oportunidades que me permitam crescer como designer e criadora.</p>
+        </article>
+
+        <aside class="skills-card reveal delay-1">
+          <h3>Destaques</h3>
+          <ul>
+            <li>Identidade visual</li>
+            <li>Design gráfico</li>
+            <li>Peças para redes sociais</li>
+            <li>Comunicação visual</li>
+            <li>Composição criativa</li>
+            <li>Fotografia</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projetos">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-label">Portfólio</span>
+          <h2>Projetos em destaque</h2>
+          <p>Seleção de trabalhos com as imagens reais enviadas.</p>
+        </div>
+
+        <div class="filter-buttons reveal">
+          <button class="filter-btn active" data-filter="all">Todos</button>
+          <button class="filter-btn" data-filter="branding">Branding</button>
+          <button class="filter-btn" data-filter="social">Social media</button>
+          <button class="filter-btn" data-filter="editorial">Editorial</button>
+        </div>
+
+        <div class="projects-grid">
+
+          
+          
+          <article class="project-card reveal" data-category="editorial">
+            <div class="project-image-wrap">
+              <img src="assets/trabalho-1.png" alt="Preconceito Linguístico" class="project-image" />
+            </div>
+            <div class="project-content">
+              <h3>Preconceito Linguístico</h3>
+              <p>Projeto editorial com recortes gráficos e contraste tipográfico para comunicar crítica social de forma expressiva.</p>
+              <button class="card-btn" data-title="Preconceito Linguístico" data-text="Projeto editorial com recortes gráficos e contraste tipográfico para comunicar crítica social de forma expressiva." data-image="assets/trabalho-1.png">Ver detalhes</button>
+            </div>
+          </article>
+    
+          <article class="project-card reveal delay-1" data-category="editorial">
+            <div class="project-image-wrap">
+              <img src="assets/trabalho-2.png" alt="Planner Semanal" class="project-image" />
+            </div>
+            <div class="project-content">
+              <h3>Planner Semanal</h3>
+              <p>Composição com atmosfera delicada e organização visual pensada para planejamento semanal, unindo funcionalidade e estética.</p>
+              <button class="card-btn" data-title="Planner Semanal" data-text="Composição com atmosfera delicada e organização visual pensada para planejamento semanal, unindo funcionalidade e estética." data-image="assets/trabalho-2.png">Ver detalhes</button>
+            </div>
+          </article>
+    
+          <article class="project-card reveal delay-2" data-category="editorial">
+            <div class="project-image-wrap">
+              <img src="assets/trabalho-3.png" alt="Loving You at Home" class="project-image" />
+            </div>
+            <div class="project-content">
+              <h3>Loving You at Home</h3>
+              <p>Composição delicada e afetiva, com direção visual suave e atmosfera romântica aplicada à proposta gráfica.</p>
+              <button class="card-btn" data-title="Loving You at Home" data-text="Composição delicada e afetiva, com direção visual suave e atmosfera romântica aplicada à proposta gráfica." data-image="assets/trabalho-3.png">Ver detalhes</button>
+            </div>
+          </article>
+    
+          <article class="project-card reveal" data-category="branding">
+            <div class="project-image-wrap">
+              <img src="assets/trabalho-4.png" alt="Barraca das Meninas" class="project-image" />
+            </div>
+            <div class="project-content">
+              <h3>Barraca das Ferramentas</h3>
+              <p>Identidade visual com composição vibrante, lettering marcante e proposta comercial voltada para um posicionamento alegre e memorável.</p>
+              <button class="card-btn" data-title="Barraca das Meninas" data-text="Identidade visual com composição vibrante, lettering marcante e proposta comercial voltada para um posicionamento alegre e memorável." data-image="assets/trabalho-4.png">Ver detalhes</button>
+            </div>
+          </article>
+    
+          <article class="project-card reveal delay-1" data-category="branding">
+            <div class="project-image-wrap">
+              <img src="assets/trabalho-5.png" alt="Mel Água de Flor" class="project-image" />
+            </div>
+            <div class="project-content">
+              <h3>Mel Água de Flor</h3>
+              <p>Identidade visual artesanal e delicada, com elementos orgânicos e linguagem visual acolhedora.</p>
+              <button class="card-btn" data-title="Mel Água de Flor" data-text="Identidade visual artesanal e delicada, com elementos orgânicos e linguagem visual acolhedora." data-image="assets/trabalho-5.png">Ver detalhes</button>
+            </div>
+          </article>
+    
+          <article class="project-card reveal delay-2" data-category="social">
+            <div class="project-image-wrap">
+              <img src="assets/trabalho-6.png" alt="Anjos Cell" class="project-image" />
+            </div>
+            <div class="project-content">
+              <h3>Anjos Cell</h3>
+              <p>Arte promocional com hierarquia visual objetiva, foco em serviços e comunicação direta para divulgação comercial.</p>
+              <button class="card-btn" data-title="Anjos Cell" data-text="Arte promocional com hierarquia visual objetiva, foco em serviços e comunicação direta para divulgação comercial." data-image="assets/trabalho-6.png">Ver detalhes</button>
+            </div>
+          </article>
+    
+          <article class="project-card reveal" data-category="social">
+            <div class="project-image-wrap">
+              <img src="assets/trabalho-7.png" alt="Maria Laranjas" class="project-image" />
+            </div>
+            <div class="project-content">
+              <h3>Maria Laranjas</h3>
+              <p>Arte promocional com paleta quente, visual chamativo e organização de informações para divulgação clara e atrativa.</p>
+              <button class="card-btn" data-title="Maria Laranjas" data-text="Arte promocional com paleta quente, visual chamativo e organização de informações para divulgação clara e atrativa." data-image="assets/trabalho-7.png">Ver detalhes</button>
+            </div>
+          </article>
+    
+          <article class="project-card reveal delay-1" data-category="social">
+            <div class="project-image-wrap">
+              <img src="assets/trabalho-8.png" alt="Saint Botticelli Company" class="project-image" />
+            </div>
+            <div class="project-content">
+              <h3>Saint Botticelli Company</h3>
+              <p>Peça com estética sofisticada, presença visual elegante e identidade voltada para posicionamento premium.</p>
+              <button class="card-btn" data-title="Saint Botticelli Company" data-text="Peça com estética sofisticada, presença visual elegante e identidade voltada para posicionamento premium." data-image="assets/trabalho-8.png">Ver detalhes</button>
+            </div>
+          </article>
+    
+          <article class="project-card reveal delay-2" data-category="branding">
+            <div class="project-image-wrap">
+              <img src="assets/trabalho-9.png" alt="ARD Advocacia" class="project-image" />
+            </div>
+            <div class="project-content">
+              <h3>ARD Advocacia</h3>
+              <p>Comunicação institucional sóbria, com visual limpo e credibilidade adequada ao segmento jurídico.</p>
+              <button class="card-btn" data-title="ARD Advocacia" data-text="Comunicação institucional sóbria, com visual limpo e credibilidade adequada ao segmento jurídico." data-image="assets/trabalho-9.png">Ver detalhes</button>
+            </div>
+          </article>
+    
+    
+    
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contato">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <span class="section-label">Informações</span>
+          <h2>Vamos criar algo incrível?</h2>
+          <p>Entre em contato para parcerias, trabalhos freelance e novos projetos visuais.</p>
+        </div>
+
+        <div class="contact-card reveal delay-1">
+          <a href="mailto:nsantsleticia@gmail.com">nsantsleticia@gmail.com</a>
+          <a href="https://wa.me/+557192077863" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+          <a href="https://www.instagram.com/leticiagraphics/" target="_blank" rel="noopener noreferrer">@leticiagraphics</a>
+          <a href="#inicio">Voltar ao topo</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 • Portfólio de Letícia Neves</p>
+    </div>
+  </footer>
+
+  <div class="modal" id="projectModal" aria-hidden="true">
+    <div class="modal-box modal-box-large">
+      <button class="modal-close" id="closeModal" aria-label="Fechar">×</button>
+      <div class="modal-media">
+        <img id="modalImage" src="" alt="" />
+      </div>
+      <div class="modal-copy">
+        <h3 id="modalTitle"></h3>
+        <p id="modalText"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
