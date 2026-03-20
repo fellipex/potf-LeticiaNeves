@@ -1,2 +1,3 @@
 # potf-LeticiaNeves
-portifólio, profissional feito com HTML, CSS e Java Script.
+portifólio,
+feito com HTML, CSS e Java Script.
